@@ -1,10 +1,10 @@
-# ***getting started
+# ***getting started:
 
 # print("hello World")
 # x = (2 + 1)
 # print(x)
 
-# ***Variables
+# ***Variables:
 
 # students_count = 1000
 # rating = 4.99
@@ -15,7 +15,7 @@
 # """
 # x, y = 1, 2
 
-# ***Dynamic Typing
+# ***Dynamic Typing:
 # print(type(1.1))
 # print(type(123))
 # print(type(True))
@@ -26,14 +26,14 @@
 # x.append(4)
 # print(id(x))
 
-# ***Strings
+# ***Strings:
 
 # course = "Python Programming"
 # print(len(course))
 # print(course[0])
 # print(course[::-1])
 
-# ***Escape Sequences
+# ***Escape Sequences:
 
 # \"
 # \'
@@ -47,7 +47,7 @@
 # language'''
 # print(msg)
 
-# ***Formatted Strings
+# ***Formatted Strings:
 
 # first = "Rabbi Hossain"
 # last = "Rakib"
@@ -56,7 +56,7 @@
 # print(full)
 # print(full2)
 
-# ***Usefull String Methods
+# ***Usefull String Methods:
 
 # course = "Python Programming"
 # print(course.upper())
@@ -69,12 +69,33 @@
 # print("Programming" in course)
 # print("Programming" not in course)
 
-# *** Numbers
+# *** Numbers:
 
-x = 1023
-print(bin(x))
-print(hex(x))
-print(oct(x))
+# x = 1023
+# print(bin(x))
+# print(hex(x))
+# print(oct(x))
 
-y = 1+2j  # j is imaginary i in python
-print(y)
+# y = 1+2j  # j is imaginary i in python
+# print(y)
+
+# *** Arithmatic Operators:
+
+# x = 10+3
+# x = 10-3
+# x = 10*3
+# x = 10/3
+# x = 10//3
+# x = 10 % 3
+# x = 10**3
+# x = x+1
+# x += 1
+# print(x)
+
+# Working with Numbers:
+
+import math
+PI = 3.1416
+print(round(PI))
+print(math.factorial(x))
+math.
