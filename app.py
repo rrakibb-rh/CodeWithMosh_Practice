@@ -94,8 +94,26 @@
 
 # Working with Numbers:
 
-import math
-PI = 3.1416
-x = 5
-print(round(PI))
-print(math.factorial(x))
+# import math
+# PI = 3.1416
+# x = 5
+# print(round(PI))
+# print(math.factorial(x))
+# print(math.floor(PI))
+
+# Type_conversion:
+
+# x = input("x: ")
+# y = x+1
+# print(y)
+
+# Conditional_Statements:
+
+age = int(input())
+if age >= 18:
+    print("adult")
+elif age >= 13:
+    print("Teenagee")
+else:
+    print("Child")
+print("All Done!")
