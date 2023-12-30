@@ -1,0 +1,37 @@
+{
+    "json.schemas": [],
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "terminal.integrated.profiles.osx": {
+        "code-runner.runInTerminal": true,
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "fish": {
+            "path": "fish",
+            "args": [
+                "-l"
+            ]
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    }
+}

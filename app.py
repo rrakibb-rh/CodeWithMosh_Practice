@@ -109,11 +109,47 @@
 
 # Conditional_Statements:
 
-age = int(input())
-if age >= 18:
-    print("adult")
-elif age >= 13:
-    print("Teenagee")
-else:
-    print("Child")
-print("All Done!")
+# age = int(input())
+# if age >= 18:
+#     print("adult")
+# elif age >= 13:
+#     print("Teenagee")
+# else:
+#     print("Child")
+# print("All Done!")
+
+# Ternary Operator:
+
+age = 22
+# if age >= 18:
+#     message = "eligable"
+# else:
+#     message = "not eligible"
+
+# message = "Eligible" if age >= 18 else "Not eligible"
+
+# print(message)
+
+# LOOPS:
+
+# for x in "Python":
+#     print(x)
+# for x in ['a', 'b', 'c']:
+#     print(x)
+
+# For...else:
+
+# names = ["ARakib", "Prisha"]
+# for name in names:
+#     if name.startswith("R"):
+#         print("Found")
+#         break
+# else:
+#     print("Not Found")
+
+# While_loops:
+
+guess = 0
+answer = 5
+while answer != guess:
+    guess = int(input("Guess: "))
