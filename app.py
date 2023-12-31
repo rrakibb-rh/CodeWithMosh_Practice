@@ -255,7 +255,28 @@
 
 # #Finding Items in Lists:
 
-letters = ["a", "b", "c"]
-print(letters.count("d"))
-if "d" in letters:
-    print(letters.index("d"))
+# letters = ["a", "b", "c"]
+# print(letters.count("d"))
+# if "d" in letters:
+#     print(letters.index("d"))
+
+# #Sorting Lists:
+
+# numbers = [3, 34, 23, 4, 1, 7, 44]
+# numbers.sort(reverse=True)
+# print(sorted(numbers))
+# print(numbers)
+
+items = [
+    ("Product1", 10),
+    ("Product2", 13),
+    ("Product3", 8),
+]
+
+
+def sort_item(item):
+    return item[1]
+
+
+items.sort(key=sort_item)
+print(items)
