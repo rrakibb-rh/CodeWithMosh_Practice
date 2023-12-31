@@ -20,20 +20,20 @@
 # print(type(123))
 # print(type(True))
 
-# ***Mutable and Immutable Types:
+# #Mutable and Immutable Types:
 # x = [1, 2, 3]
 # print(id(x))
 # x.append(4)
 # print(id(x))
 
-# ***Strings:
+# #Strings:
 
 # course = "Python Programming"
 # print(len(course))
 # print(course[0])
 # print(course[::-1])
 
-# ***Escape Sequences:
+# #Escape Sequences:
 
 # \"
 # \'
@@ -47,7 +47,7 @@
 # language'''
 # print(msg)
 
-# ***Formatted Strings:
+# #Formatted Strings:
 
 # first = "Rabbi Hossain"
 # last = "Rakib"
@@ -56,7 +56,7 @@
 # print(full)
 # print(full2)
 
-# ***Usefull String Methods:
+# #Usefull String Methods:
 
 # course = "Python Programming"
 # print(course.upper())
@@ -69,7 +69,7 @@
 # print("Programming" in course)
 # print("Programming" not in course)
 
-# *** Numbers:
+# #Numbers:
 
 # x = 1023
 # print(bin(x))
@@ -79,7 +79,7 @@
 # y = 1+2j  # j is imaginary i in python
 # print(y)
 
-# *** Arithmatic Operators:
+# #Arithmatic Operators:
 
 # x = 10+3
 # x = 10-3
@@ -92,7 +92,7 @@
 # x += 1
 # print(x)
 
-# Working with Numbers:
+# #Working with Numbers:
 
 # import math
 # PI = 3.1416
@@ -101,13 +101,13 @@
 # print(math.factorial(x))
 # print(math.floor(PI))
 
-# Type_conversion:
+# #Type_conversion:
 
 # x = input("x: ")
 # y = x+1
 # print(y)
 
-# Conditional_Statements:
+# #Conditional_Statements:
 
 # age = int(input())
 # if age >= 18:
@@ -118,9 +118,9 @@
 #     print("Child")
 # print("All Done!")
 
-# Ternary Operator:
+# #Ternary Operator:
 
-age = 22
+# age = 22
 # if age >= 18:
 #     message = "eligable"
 # else:
@@ -130,14 +130,14 @@ age = 22
 
 # print(message)
 
-# LOOPS:
+# #LOOPS:
 
 # for x in "Python":
 #     print(x)
 # for x in ['a', 'b', 'c']:
 #     print(x)
 
-# For...else:
+# #For...else:
 
 # names = ["ARakib", "Prisha"]
 # for name in names:
@@ -147,21 +147,21 @@ age = 22
 # else:
 #     print("Not Found")
 
-# While_loops:
+# #While_loops:
 
 # gues = 0
 # answer = 5
 # while answer != gues:
 #     gues = int(input("Guess: "))
 
-# function:
+# #function:
 # def increment(number, by):
 #     return number+by
 
 
 # print(increment(2, 3))
 
-# Arguments:
+# #Arguments:
 
 # def multiply(*list): #python will read *list as a tuple
 #     total = 1
@@ -172,7 +172,7 @@ age = 22
 
 # print(multiply(2, 3, 4, 5))
 
-# Arguments xxargs:
+# #Arguments xxargs:
 
 # def save_user(**user):
 #     print(user)
@@ -180,7 +180,7 @@ age = 22
 
 # save_user(id=1, name="rakib") # output is dictionary
 
-# Debugging :
+# #Debugging :
 
 # def multiply(*numbers):
 #     total = 1
@@ -193,7 +193,7 @@ age = 22
 # print(multiply(1, 2, 3))
 # print("finish")
 
-# Exercise:
+# #Exercise:
 
 # def fizz_buzz(input):
 #     if (input % 3 == 0) and (input % 5 == 0):
@@ -207,7 +207,7 @@ age = 22
 
 # print(fizz_buzz(30))
 
-# Lists:
+# #Lists:
 # letters = ["a", "b", "c"]
 # matrix = [[0, 1], [2, 3]]
 # zeros = [0]*5
@@ -216,7 +216,7 @@ age = 22
 # chars = list("hello world")
 # print(len(chars))
 
-# Accessing items of a list:
+# #Accessing items of a list:
 
 # letters = ["a", "b", "c", "d"]
 # letters[0] = "A"
@@ -225,7 +225,7 @@ age = 22
 # numbers = list(range(20))
 # print(numbers[::-1])
 
-# Lists unpacking:
+# #Lists unpacking:
 # x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # a, b, *other, c = x
 # print(a)
@@ -233,4 +233,29 @@ age = 22
 # print(c)
 # print(other)
 
-# Looping over Lists:
+# #Looping over Lists:
+# letters = ["a", "b", "c"]
+# for index, letter in enumerate(letters):
+#     # enumerate generates tuple with index number.
+#     print(index, letter)
+
+# Adding and removing items in Lists:
+
+# letters = ["a", "b", "c", "e", "f", "g"]
+# # Add
+# letters.append("d")
+# letters.insert(0, "-")
+
+# # Remove
+# letters.pop(0)
+# letters.remove("b")
+# del letters[0:3]
+# letters.clear()
+# print(letters)
+
+# #Finding Items in Lists:
+
+letters = ["a", "b", "c"]
+print(letters.count("d"))
+if "d" in letters:
+    print(letters.index("d"))
