@@ -208,10 +208,29 @@ age = 22
 # print(fizz_buzz(30))
 
 # Lists:
-letters = ["a", "b", "c"]
-matrix = [[0, 1], [2, 3]]
-zeros = [0]*5
-combined = zeros + letters
-numbers = list(range(20))
-chars = list("hello world")
-print(len(chars))
+# letters = ["a", "b", "c"]
+# matrix = [[0, 1], [2, 3]]
+# zeros = [0]*5
+# combined = zeros + letters
+# numbers = list(range(20))
+# chars = list("hello world")
+# print(len(chars))
+
+# Accessing items of a list:
+
+# letters = ["a", "b", "c", "d"]
+# letters[0] = "A"
+# print(letters[0: 3: 1])
+
+# numbers = list(range(20))
+# print(numbers[::-1])
+
+# Lists unpacking:
+# x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# a, b, *other, c = x
+# print(a)
+# print(b)
+# print(c)
+# print(other)
+
+# Looping over Lists:
