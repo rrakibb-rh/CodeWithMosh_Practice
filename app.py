@@ -149,7 +149,69 @@ age = 22
 
 # While_loops:
 
-guess = 0
-answer = 5
-while answer != guess:
-    guess = int(input("Guess: "))
+# gues = 0
+# answer = 5
+# while answer != gues:
+#     gues = int(input("Guess: "))
+
+# function:
+# def increment(number, by):
+#     return number+by
+
+
+# print(increment(2, 3))
+
+# Arguments:
+
+# def multiply(*list): #python will read *list as a tuple
+#     total = 1
+#     for number in list:
+#         total *= number
+#     return total
+
+
+# print(multiply(2, 3, 4, 5))
+
+# Arguments xxargs:
+
+# def save_user(**user):
+#     print(user)
+
+
+# save_user(id=1, name="rakib") # output is dictionary
+
+# Debugging :
+
+# def multiply(*numbers):
+#     total = 1
+#     for number in numbers:
+#         total *= number
+#     return total
+
+
+# print("start")
+# print(multiply(1, 2, 3))
+# print("finish")
+
+# Exercise:
+
+# def fizz_buzz(input):
+#     if (input % 3 == 0) and (input % 5 == 0):
+#         return "fizzbuzz"
+#     if input % 3 == 0:
+#         return "fizz"
+#     if input % 5 == 0:
+#         return "buzz"
+#     return input
+
+
+# print(fizz_buzz(30))
+
+# Lists:
+letters = ["a", "b", "c"]
+matrix = [[0, 1], [2, 3]]
+zeros = [0]*5
+combined = zeros + letters
+numbers = list(range(20))
+chars = list("hello world")
+print(len(chars))

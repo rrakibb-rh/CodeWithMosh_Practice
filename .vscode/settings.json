@@ -5,7 +5,6 @@
         "compounds": []
     },
     "terminal.integrated.profiles.osx": {
-        "code-runner.runInTerminal": true,
         "bash": {
             "path": "bash",
             "args": [
