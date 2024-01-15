@@ -283,11 +283,27 @@
 
 # #Lambda Functions:
 
-items = [
-    ("P1", 11),
-    ("P2", 14),
-    ("P3", 3)
-]
+# items = [
+#     ("P1", 11),
+#     ("P2", 14),
+#     ("P3", 3)
+# ]
 
-items.sort(key=lambda item: item[1])
-print(items)
+# items.sort(key=lambda item: item[1])
+# print(items)
+
+# # Map Fucntion:
+from time import process_time_ns
+
+
+items = [
+    ("P1", 19),
+    ("P2", 4),
+    ("P3", 12)
+]
+# prices = []
+# for item in items:
+#     prices.append(item[1])
+
+prices = list(map(lambda item: item[1], items))
+print(prices)
