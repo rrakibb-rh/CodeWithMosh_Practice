@@ -267,16 +267,27 @@
 # print(sorted(numbers))
 # print(numbers)
 
+# items = [
+#     ("Product1", 10),
+#     ("Product2", 13),
+#     ("Product3", 8),
+# ]
+
+
+# def sort_item(item):
+#     return item[1]
+
+
+# items.sort(key=sort_item)
+# print(items)
+
+# #Lambda Functions:
+
 items = [
-    ("Product1", 10),
-    ("Product2", 13),
-    ("Product3", 8),
+    ("P1", 11),
+    ("P2", 14),
+    ("P3", 3)
 ]
 
-
-def sort_item(item):
-    return item[1]
-
-
-items.sort(key=sort_item)
+items.sort(key=lambda item: item[1])
 print(items)
